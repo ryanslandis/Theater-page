@@ -1,0 +1,53 @@
+#header{
+    display: inline;
+  
+    size:100px;
+    color: white;
+    display: inline;
+
+ }
+
+ .hero-image{
+     background-image:theater-pic;
+     height: 1000px;
+ }
+
+ body{
+     background-color: black;
+     font-family: roboto,sans-serif;
+     display: grid;
+     grid-area: body;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     grid-template-rows: auto;
+     grid-template-areas:
+     "nav"
+     "links links links"
+     ""
+     "sidebar sidebar sidebar"
+    
+ }
+
+ .Links li{
+    float: inline;
+    display: inline;
+    height: 200%;
+    width: 200%;
+     grid-area: links;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     grid-template-rows: auto;
+     grid-template-areas:
+
+ }
+
+ #footer{
+     display: inline;
+ }
+
+ nav li{
+     display: inline;
+     grid-area: nav;
+ }
+
+ nav{
+     width: 100vh;
+ }
